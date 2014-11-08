@@ -20,7 +20,7 @@
 		FC2FA8741A0EC89100A50B3B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2FA8681A0EC89100A50B3B /* StoreKit.framework */; };
 		FC2FA8751A0EC89100A50B3B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2FA8691A0EC89100A50B3B /* SystemConfiguration.framework */; };
 		FC2FA8771A0ECCD300A50B3B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2FA8761A0ECCD300A50B3B /* Bolts.framework */; };
-		FC2FA8791A0ECCDE00A50B3B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2FA8781A0ECCDE00A50B3B /* Parse.framework */; };
+		FC2FA87B1A0ECED700A50B3B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2FA87A1A0ECED700A50B3B /* Parse.framework */; };
 		FC62716B1A0E443B00E9DB81 /* mainScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC62716A1A0E443B00E9DB81 /* mainScreenVC.m */; };
 		FC62716F1A0E494200E9DB81 /* trackfield-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC62716E1A0E494200E9DB81 /* trackfield-568h@2x.png */; };
 		FC6271721A0E49E500E9DB81 /* track.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6271701A0E49E500E9DB81 /* track.png */; };
@@ -57,7 +57,7 @@
 		FC2FA8681A0EC89100A50B3B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		FC2FA8691A0EC89100A50B3B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FC2FA8761A0ECCD300A50B3B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		FC2FA8781A0ECCDE00A50B3B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FC2FA87A1A0ECED700A50B3B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		FC6271691A0E440C00E9DB81 /* mainScreenVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainScreenVC.h; sourceTree = "<group>"; };
 		FC62716A1A0E443B00E9DB81 /* mainScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainScreenVC.m; sourceTree = "<group>"; };
 		FC62716E1A0E494200E9DB81 /* trackfield-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trackfield-568h@2x.png"; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 				FC2FA8771A0ECCD300A50B3B /* Bolts.framework in Frameworks */,
 				FC2FA8711A0EC89100A50B3B /* QuartzCore.framework in Frameworks */,
 				FC2FA8721A0EC89100A50B3B /* Security.framework in Frameworks */,
-				FC2FA8791A0ECCDE00A50B3B /* Parse.framework in Frameworks */,
+				FC2FA87B1A0ECED700A50B3B /* Parse.framework in Frameworks */,
 				FC2FA8731A0EC89100A50B3B /* Social.framework in Frameworks */,
 				FC2FA8741A0EC89100A50B3B /* StoreKit.framework in Frameworks */,
 				FC2FA8751A0EC89100A50B3B /* SystemConfiguration.framework in Frameworks */,
@@ -112,7 +112,7 @@
 		FCB80EB51A0E2FF20022B1CA = {
 			isa = PBXGroup;
 			children = (
-				FC2FA8781A0ECCDE00A50B3B /* Parse.framework */,
+				FC2FA87A1A0ECED700A50B3B /* Parse.framework */,
 				FC2FA8761A0ECCD300A50B3B /* Bolts.framework */,
 				FC2FA85E1A0EC89100A50B3B /* Accounts.framework */,
 				FC2FA85F1A0EC89100A50B3B /* AudioToolbox.framework */,
@@ -416,14 +416,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Walk",
-					to,
-					the,
-					"Top/parse-library-1.5.0",
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = "Walk to the Top/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,14 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Walk",
-					to,
-					the,
-					"Top/parse-library-1.5.0",
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = "Walk to the Top/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
