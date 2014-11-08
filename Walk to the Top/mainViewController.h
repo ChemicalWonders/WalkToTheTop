@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  mainViewController.h
 //  Walk to the Top
 //
 //  Created by Kevin Chan on 11/8/14.
@@ -8,12 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-NSTimer *delayTimer;
-
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface mainViewController : UIViewController
 
 
 @end

@@ -1,22 +1,22 @@
 //
-//  ViewController.m
+//  mainViewController.m
 //  Walk to the Top
 //
 //  Created by Kevin Chan on 11/8/14.
 //  Copyright (c) 2014 Step By Step. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "mainViewController.h"
 
-@interface ViewController ()
+@interface mainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation mainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    sleep(1);
 }
 
 - (void)didReceiveMemoryWarning {
