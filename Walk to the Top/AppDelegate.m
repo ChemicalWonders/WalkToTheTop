@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Step By Step. All rights reserved.
 //
 
+#import <Parse/Parse.h>
 #import "AppDelegate.h"
 #import "mainViewController.h"
 
@@ -19,7 +20,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [Parse setApplicationId:@"HX155hafpnuYF0EsxBnd2OxE8Y59wmcvau8wJftG"
+                  clientKey:@"17dSseUJDcSzj2yMjENCB3c7ui1laUjpvdAAsXHq"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     return YES;
 }
 
