@@ -176,6 +176,7 @@
 				TargetAttributes = {
 					FCB80EBD1A0E2FF20022B1CA = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 2S3D8J8M3T;
 					};
 					FCB80ED61A0E2FF20022B1CA = {
 						CreatedOnToolsVersion = 6.1;
@@ -343,9 +344,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Walk to the Top/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,9 +356,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Walk to the Top/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -412,6 +417,7 @@
 				FCB80EE31A0E2FF20022B1CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCB80EE41A0E2FF20022B1CA /* Build configuration list for PBXNativeTarget "Walk to the TopTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +426,7 @@
 				FCB80EE61A0E2FF20022B1CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
