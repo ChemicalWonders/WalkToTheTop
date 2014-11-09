@@ -4,6 +4,24 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
+        <!--Log In Controller View Controller-->
+        <scene sceneID="iT9-GS-1Wl">
+            <objects>
+                <viewController storyboardIdentifier="LoginControllerViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nQ0-O4-BgT" customClass="LogInControllerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ov7-7T-RAX"/>
+                        <viewControllerLayoutGuide type="bottom" id="9iI-ec-4W6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OKV-t3-kE1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I3D-ns-qhE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160" y="-870"/>
+        </scene>
         <!--Main View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
@@ -50,6 +68,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="checkLogin:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="d5E-33-hZP"/>
                                     <segue destination="Qsj-bv-TVq" kind="modal" id="o6c-7p-TbR"/>
                                 </connections>
                             </button>
@@ -57,6 +76,10 @@
                         <color key="backgroundColor" red="0.65746054507092255" green="1" blue="0.91213537873378947" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="Fk4-Tp-TGp" id="edZ-LJ-Fpi"/>
+                        <outlet property="usernameTextField" destination="pFB-kG-0Hv" id="uKr-cS-qkQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -148,6 +171,9 @@
                                         <state key="normal" title="Submit">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signup:" destination="nt1-mS-5IB" eventType="touchUpInside" id="4Am-uq-ZYm"/>
+                                        </connections>
                                     </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="email" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WCm-C6-eIo">
                                         <rect key="frame" x="13" y="196" width="288" height="30"/>
@@ -161,6 +187,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="esU-aS-RDv"/>
                     <connections>
+                        <outlet property="emailTextField" destination="WCm-C6-eIo" id="trl-df-nay"/>
+                        <outlet property="nPasswordTextField" destination="Myh-0D-zg2" id="Pf7-fq-wSK"/>
+                        <outlet property="nUsernameTextField" destination="C50-nK-qRH" id="aJq-WC-5YF"/>
+                        <outlet property="nameTextField" destination="6Xa-eR-cNd" id="azy-s2-4Fq"/>
+                        <outlet property="phoneNumberTextField" destination="wRl-0U-ZhN" id="ksN-4o-9Cx"/>
                         <outlet property="scrollView" destination="vVK-OT-W9Z" id="ecD-94-gdY"/>
                     </connections>
                 </viewController>
