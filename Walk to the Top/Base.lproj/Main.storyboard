@@ -463,8 +463,8 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Aga-hH-ITI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="sectionIndexBackgroundColor" red="0.63964371870000003" green="1" blue="0.48492517359999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.89411771297454834" green="0.97254908084869385" blue="0.91372555494308472" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <sections>
                             <tableViewSection id="S0C-Oa-zmC">
                                 <cells>
@@ -566,4 +566,5 @@
     <inferredMetricsTieBreakers>
         <segue reference="o6c-7p-TbR"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.65746054509999996" green="1" blue="0.91213537870000005" alpha="1" colorSpace="calibratedRGB"/>
 </document>
