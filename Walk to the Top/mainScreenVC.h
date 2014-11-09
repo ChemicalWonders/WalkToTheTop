@@ -11,8 +11,12 @@
 
 
 @interface mainScreenVC : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *phoneNumberTextField;
+@property (weak, nonatomic) IBOutlet UITextField *emailTextField;
+@property (weak, nonatomic) IBOutlet UITextField *nUsernameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *nPasswordTextField;
 
-
-
+- (IBAction)signup:(id)sender;
 @end
 
