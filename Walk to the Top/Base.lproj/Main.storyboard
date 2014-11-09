@@ -364,7 +364,6 @@
         <!--Navigation Controller-->
         <scene sceneID="KEN-fS-TMD">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yfd-U3-NJ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bJO-jC-WGu" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="downloads" id="VrS-19-LlQ"/>
                     <toolbarItems/>
@@ -377,13 +376,13 @@
                         <segue destination="obF-OG-e4s" kind="relationship" relationship="rootViewController" id="umy-UT-WBR"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yfd-U3-NJ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-144" y="528"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iHS-6J-mVP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IbD-Js-ehk" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ro8-qv-THp" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" systemItem="featured" id="enx-RK-qii"/>
                     <toolbarItems/>
@@ -396,6 +395,7 @@
                         <segue destination="G9b-Ih-p8i" kind="relationship" relationship="rootViewController" id="K33-uC-ShU"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IbD-Js-ehk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="199" y="1238"/>
         </scene>
