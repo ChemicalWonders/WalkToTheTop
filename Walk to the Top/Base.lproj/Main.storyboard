@@ -57,7 +57,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nt1-mS-5IB" kind="modal" id="CC4-qg-coG"/>
+                                    <segue destination="nt1-mS-5IB" kind="modal" identifier="toSignUp" id="CC4-qg-coG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdr-c4-G8E">
@@ -69,7 +69,7 @@
                                 </state>
                                 <connections>
                                     <action selector="checkLogin:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="d5E-33-hZP"/>
-                                    <segue destination="Qsj-bv-TVq" kind="modal" id="o6c-7p-TbR"/>
+                                    <segue destination="Qsj-bv-TVq" kind="modal" identifier="toMainPage" id="o6c-7p-TbR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -85,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="-600" y="-150"/>
         </scene>
-        <!--View Controller-->
+        <!--Running Total-->
         <scene sceneID="gwD-IQ-cd7">
             <objects>
-                <viewController id="obF-OG-e4s" sceneMemberID="viewController">
+                <viewController title="Running Total" id="obF-OG-e4s" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IAq-Ar-Zt4"/>
                         <viewControllerLayoutGuide type="bottom" id="sfS-nY-JID"/>
