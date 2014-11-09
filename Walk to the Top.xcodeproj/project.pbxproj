@@ -300,6 +300,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D17101F1A0F37BB0062DC01 /* FacebookSDK.framework in Resources */,
+				8D1710201A0F37BB0062DC01 /* ParseFacebookUtils.framework in Resources */,
+				8D1710211A0F37BB0062DC01 /* Parse.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
