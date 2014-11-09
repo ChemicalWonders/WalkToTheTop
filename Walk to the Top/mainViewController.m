@@ -7,6 +7,7 @@
 //
 
 #import "mainViewController.h"
+#import <FacebookSDK/FacebookSDK.h>
 
 @interface mainViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    sleep(1);
+    
+    FBLoginView *loginView = [[FBLoginView alloc] init];
+    loginView.center = self.view.center;
+    [self.view addSubview:loginView];
 }
 
 - (void)didReceiveMemoryWarning {
