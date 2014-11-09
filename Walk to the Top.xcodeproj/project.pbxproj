@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D04B90E1A0EE622003983FB /* LogInControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D04B90D1A0EE622003983FB /* LogInControllerViewController.m */; };
+		8D64B8F81A0F73D200AE2766 /* Step Graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D64B8F71A0F73D200AE2766 /* Step Graph.png */; };
 		FC1CC9951A0EDD0300C54BD1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1CC9941A0EDD0300C54BD1 /* Parse.framework */; };
 		FC1CC9971A0EDD9300C54BD1 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1CC9961A0EDD9300C54BD1 /* ParseFacebookUtils.framework */; };
 		FC1CC9991A0EDFE400C54BD1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1CC9981A0EDFE400C54BD1 /* FacebookSDK.framework */; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		8D04B90C1A0EE622003983FB /* LogInControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInControllerViewController.h; sourceTree = "<group>"; };
 		8D04B90D1A0EE622003983FB /* LogInControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInControllerViewController.m; sourceTree = "<group>"; };
+		8D64B8F71A0F73D200AE2766 /* Step Graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Step Graph.png"; path = "../../Step Graph.png"; sourceTree = "<group>"; };
 		FC1CC9941A0EDD0300C54BD1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		FC1CC9961A0EDD9300C54BD1 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		FC1CC9981A0EDFE400C54BD1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 		FCB80EE71A0E302D0022B1CA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				8D64B8F71A0F73D200AE2766 /* Step Graph.png */,
 				FC6271701A0E49E500E9DB81 /* track.png */,
 				FC6271711A0E49E500E9DB81 /* track-568h@2x.png */,
 			);
@@ -293,6 +296,7 @@
 				FC6271721A0E49E500E9DB81 /* track.png in Resources */,
 				FCB80ECD1A0E2FF20022B1CA /* Main.storyboard in Resources */,
 				FCB80ECF1A0E2FF20022B1CA /* Images.xcassets in Resources */,
+				8D64B8F81A0F73D200AE2766 /* Step Graph.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,9 +304,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D17101F1A0F37BB0062DC01 /* FacebookSDK.framework in Resources */,
-				8D1710201A0F37BB0062DC01 /* ParseFacebookUtils.framework in Resources */,
-				8D1710211A0F37BB0062DC01 /* Parse.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
