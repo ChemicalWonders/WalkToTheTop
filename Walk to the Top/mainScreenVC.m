@@ -8,7 +8,10 @@
 
 #import "mainScreenVC.h"
 
+
+
 @interface mainScreenVC()
+
 
 @end
 
@@ -16,12 +19,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    sleep(1);
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end
