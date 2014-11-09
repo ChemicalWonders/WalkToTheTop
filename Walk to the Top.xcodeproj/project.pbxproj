@@ -37,6 +37,8 @@
 		FCB80ECF1A0E2FF20022B1CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB80ECE1A0E2FF20022B1CA /* Images.xcassets */; };
 		FCB80EDE1A0E2FF20022B1CA /* Walk_to_the_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB80EDD1A0E2FF20022B1CA /* Walk_to_the_TopTests.m */; };
 		FCB9501D1A0F9C5500492889 /* Graph.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB9501C1A0F9C5500492889 /* Graph.png */; };
+		FCB950201A0FA2CC00492889 /* HighScoreTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB9501F1A0FA2CB00492889 /* HighScoreTable.m */; };
+		FCB950221A0FA89B00492889 /* steps.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB950211A0FA89B00492889 /* steps.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,9 @@
 		FCB80EDC1A0E2FF20022B1CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCB80EDD1A0E2FF20022B1CA /* Walk_to_the_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Walk_to_the_TopTests.m; sourceTree = "<group>"; };
 		FCB9501C1A0F9C5500492889 /* Graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Graph.png; sourceTree = "<group>"; };
+		FCB9501E1A0FA2CB00492889 /* HighScoreTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreTable.h; sourceTree = "<group>"; };
+		FCB9501F1A0FA2CB00492889 /* HighScoreTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreTable.m; sourceTree = "<group>"; };
+		FCB950211A0FA89B00492889 /* steps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steps.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +179,8 @@
 				8D04B90C1A0EE622003983FB /* LogInControllerViewController.h */,
 				8D04B90D1A0EE622003983FB /* LogInControllerViewController.m */,
 				FCB80ECB1A0E2FF20022B1CA /* Main.storyboard */,
+				FCB9501E1A0FA2CB00492889 /* HighScoreTable.h */,
+				FCB9501F1A0FA2CB00492889 /* HighScoreTable.m */,
 				FC9CF45F1A0F82EA0042E151 /* settingsTable.h */,
 				FC9CF4601A0F82EA0042E151 /* settingsTable.m */,
 				FC9CF45C1A0F737B0042E151 /* WebController.h */,
@@ -213,6 +220,7 @@
 		FCB80EE71A0E302D0022B1CA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FCB950211A0FA89B00492889 /* steps.png */,
 				FCB9501C1A0F9C5500492889 /* Graph.png */,
 				FC6271701A0E49E500E9DB81 /* track.png */,
 				FC6271711A0E49E500E9DB81 /* track-568h@2x.png */,
@@ -305,6 +313,7 @@
 				FC6271731A0E49E500E9DB81 /* track-568h@2x.png in Resources */,
 				FC6271721A0E49E500E9DB81 /* track.png in Resources */,
 				FCB80ECD1A0E2FF20022B1CA /* Main.storyboard in Resources */,
+				FCB950221A0FA89B00492889 /* steps.png in Resources */,
 				FCB9501D1A0F9C5500492889 /* Graph.png in Resources */,
 				FCB80ECF1A0E2FF20022B1CA /* Images.xcassets in Resources */,
 			);
@@ -331,6 +340,7 @@
 				FCB80EC41A0E2FF20022B1CA /* main.m in Sources */,
 				FC62716B1A0E443B00E9DB81 /* mainScreenVC.m in Sources */,
 				FC9CF4611A0F82EA0042E151 /* settingsTable.m in Sources */,
+				FCB950201A0FA2CC00492889 /* HighScoreTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
