@@ -79,6 +79,7 @@
                     <connections>
                         <outlet property="passwordTextField" destination="Fk4-Tp-TGp" id="edZ-LJ-Fpi"/>
                         <outlet property="usernameTextField" destination="pFB-kG-0Hv" id="uKr-cS-qkQ"/>
+                        <segue destination="Qsj-bv-TVq" kind="modal" identifier="vcpush" id="E74-8H-5aU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -127,6 +128,7 @@
         <scene sceneID="odx-8x-9CW">
             <objects>
                 <tabBarController id="Qsj-bv-TVq" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xNx-IL-CSR"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Blt-QQ-KWX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -264,7 +266,6 @@
         <!--Navigation Controller-->
         <scene sceneID="KEN-fS-TMD">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yfd-U3-NJ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bJO-jC-WGu" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="downloads" id="VrS-19-LlQ"/>
                     <toolbarItems/>
@@ -277,13 +278,13 @@
                         <segue destination="obF-OG-e4s" kind="relationship" relationship="rootViewController" id="umy-UT-WBR"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yfd-U3-NJ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-144" y="528"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iHS-6J-mVP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IbD-Js-ehk" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ro8-qv-THp" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" systemItem="featured" id="enx-RK-qii"/>
                     <toolbarItems/>
@@ -296,6 +297,7 @@
                         <segue destination="G9b-Ih-p8i" kind="relationship" relationship="rootViewController" id="K33-uC-ShU"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IbD-Js-ehk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="199" y="1238"/>
         </scene>
@@ -324,4 +326,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="o6c-7p-TbR"/>
+    </inferredMetricsTieBreakers>
 </document>
