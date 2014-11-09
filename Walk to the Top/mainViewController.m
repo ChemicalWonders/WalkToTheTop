@@ -7,12 +7,14 @@
 //
 
 #import "mainViewController.h"
-
-@interface mainViewController ()
-
-@end
+#import "LogInControllerViewController.h"
 
 @implementation mainViewController
+
+- (IBAction)Next {
+    LogInControllerViewController *second = [[LogInControllerViewController alloc] intWithNibName:nil bundle:nil];
+    [self presentViewController:second animated: YES completion:NULL];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

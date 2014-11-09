@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface mainViewController : UIViewController
+@interface mainViewController : UIViewController {
+    
+}
 
+- (IBAction)Next;
 
 @end
 
