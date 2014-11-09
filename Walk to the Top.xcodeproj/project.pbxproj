@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D04B90E1A0EE622003983FB /* LogInControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D04B90D1A0EE622003983FB /* LogInControllerViewController.m */; };
 		FC1CC9951A0EDD0300C54BD1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1CC9941A0EDD0300C54BD1 /* Parse.framework */; };
 		FC1CC9971A0EDD9300C54BD1 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1CC9961A0EDD9300C54BD1 /* ParseFacebookUtils.framework */; };
 		FC2FA86A1A0EC89100A50B3B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2FA85E1A0EC89100A50B3B /* Accounts.framework */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D04B90C1A0EE622003983FB /* LogInControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInControllerViewController.h; sourceTree = "<group>"; };
+		8D04B90D1A0EE622003983FB /* LogInControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInControllerViewController.m; sourceTree = "<group>"; };
 		FC1CC9941A0EDD0300C54BD1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		FC1CC9961A0EDD9300C54BD1 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		FC2FA85E1A0EC89100A50B3B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -156,6 +159,8 @@
 				FC62716A1A0E443B00E9DB81 /* mainScreenVC.m */,
 				FCB80EC81A0E2FF20022B1CA /* mainViewController.h */,
 				FCB80EC91A0E2FF20022B1CA /* mainViewController.m */,
+				8D04B90C1A0EE622003983FB /* LogInControllerViewController.h */,
+				8D04B90D1A0EE622003983FB /* LogInControllerViewController.m */,
 				FCB80ECB1A0E2FF20022B1CA /* Main.storyboard */,
 				FCB80ECE1A0E2FF20022B1CA /* Images.xcassets */,
 				FCB80EC11A0E2FF20022B1CA /* Supporting Files */,
@@ -302,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCB80ECA1A0E2FF20022B1CA /* mainViewController.m in Sources */,
+				8D04B90E1A0EE622003983FB /* LogInControllerViewController.m in Sources */,
 				FCB80EC71A0E2FF20022B1CA /* AppDelegate.m in Sources */,
 				FCB80EC41A0E2FF20022B1CA /* main.m in Sources */,
 				FC62716B1A0E443B00E9DB81 /* mainScreenVC.m in Sources */,
