@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D17101F1A0F37BB0062DC01 /* FacebookSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC1CC9981A0EDFE400C54BD1 /* FacebookSDK.framework */; };
+		8D1710201A0F37BB0062DC01 /* ParseFacebookUtils.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC1CC9961A0EDD9300C54BD1 /* ParseFacebookUtils.framework */; };
+		8D1710211A0F37BB0062DC01 /* Parse.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC1CC9941A0EDD0300C54BD1 /* Parse.framework */; };
 		FC1CC9951A0EDD0300C54BD1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1CC9941A0EDD0300C54BD1 /* Parse.framework */; };
 		FC1CC9971A0EDD9300C54BD1 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1CC9961A0EDD9300C54BD1 /* ParseFacebookUtils.framework */; };
 		FC1CC9991A0EDFE400C54BD1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1CC9981A0EDFE400C54BD1 /* FacebookSDK.framework */; };
@@ -295,6 +298,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D17101F1A0F37BB0062DC01 /* FacebookSDK.framework in Resources */,
+				8D1710201A0F37BB0062DC01 /* ParseFacebookUtils.framework in Resources */,
+				8D1710211A0F37BB0062DC01 /* Parse.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
