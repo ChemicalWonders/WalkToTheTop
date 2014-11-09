@@ -43,17 +43,32 @@
         newUser.email = email;
        // newUser.name = name;
        // newUser.phoneNumber = phoneNumber;
-        
+      
         [newUser signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-            if (error) {
+            if (!error) {
+                NSLog(@"Registration success!");
+                
+                [self dismissViewControllerAnimated:true completion:nil];
+                
+                [self performSegueWithIdentifier:@"vcpush" sender:sender];
+                
+                _nameTextField.text = nil;
+                _phoneNumberTextField.text = nil;
+                _emailTextField.text = nil;
+                _nUsernameTextField.text = nil;
+                _nPasswordTextField.text = nil;
+                
+                
+                //[self.navigationController popToRootViewControllerAnimated:YES];
+            }
+            else {
                 UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error!"
                                                                     message:[error.userInfo objectForKey:@"error"]
                                                                    delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
                 [alertView show];
             }
-            else {
-                [self.navigationController popToRootViewControllerAnimated:YES];
-            }
+            
+
         }];
     }
 }

@@ -79,6 +79,7 @@
                     <connections>
                         <outlet property="passwordTextField" destination="Fk4-Tp-TGp" id="edZ-LJ-Fpi"/>
                         <outlet property="usernameTextField" destination="pFB-kG-0Hv" id="uKr-cS-qkQ"/>
+                        <segue destination="Qsj-bv-TVq" kind="modal" identifier="vcpush" id="E74-8H-5aU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -108,6 +109,7 @@
         <scene sceneID="odx-8x-9CW">
             <objects>
                 <tabBarController id="Qsj-bv-TVq" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xNx-IL-CSR"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Blt-QQ-KWX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -512,4 +514,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="o6c-7p-TbR"/>
+    </inferredMetricsTieBreakers>
 </document>
