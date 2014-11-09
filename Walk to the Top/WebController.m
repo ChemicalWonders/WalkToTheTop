@@ -16,7 +16,7 @@
 @implementation WebController
 
 - (void)viewWillAppear:(BOOL)animated {
-    _fullURL = @"https://github.com/ChemicalWonders/WalkToTheTop"
+    _fullURL = @"https://github.com/ChemicalWonders/WalkToTheTop";
     NSURL *url = [NSURL URLWithString: self.fullURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [_webview loadRequest:requestObj];

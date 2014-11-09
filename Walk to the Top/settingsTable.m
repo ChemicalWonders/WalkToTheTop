@@ -13,6 +13,7 @@
 
 @end
 
+
 @implementation settingsTable
 /*
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
@@ -63,13 +64,12 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
+//#warning Incomplete method implementation.
     // Return the number of rows in the section.
     return 0;
 }
 
-
-- (void) didSel  //Didselectrowatindexpath
+ //Didselectrowatindexpath
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
@@ -123,5 +123,6 @@
     // Pass the selected object to the new view controller.
 }
 */
+
 
 @end
