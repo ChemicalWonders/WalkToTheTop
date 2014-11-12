@@ -1,4 +1,4 @@
-####WalkToTheTop
+#WalkToTheTop
 ============
 
 HackSC iOS application for tracking walking steps and competing with other people.
@@ -11,11 +11,11 @@ where you are walking!
 
 ##Key Features
 
-*Login Page with Registration Page
-*Walking Page
-*Leaderboard
-*Settings, with a link to GitHub for open source contributions
-*Splash Screen
+* Login Page with Registration Page
+* Walking Page
+* Leaderboard
+* Settings, with a link to GitHub for open source contributions
+* Splash Screen
 
 
 ##Future Features Planned:
